@@ -1,7 +1,7 @@
 FROM node:latest
 
 WORKDIR /usr/src/app
-COPY . .
+COPY bill-com .
 RUN npm install
 
 EXPOSE 80
